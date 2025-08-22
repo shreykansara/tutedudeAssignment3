@@ -1,6 +1,6 @@
 let btn = document.getElementById('greet').addEventListener('click', () => {
     // document.getElementById('name').innerText = 'Hello, ' + document.getElementById('input').value
-    document.getElementById('name').innerText = `Hello, + ${document.getElementById('input').value}`
+    document.getElementById('name').innerText = `Hello, ${document.getElementById('input').value}`
 })
 
 let red = document.getElementById('red')
@@ -24,7 +24,6 @@ green.addEventListener('click', () => {
 let yellow = document.getElementById('yellow')
 yellow.addEventListener('click', () => {
     yellow.style.backgroundColor = 'yellow';
-    yellow.style.color = 'white'
 })
 
 

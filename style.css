@@ -38,3 +38,12 @@ main {
     margin: 20px;
     border: 1px black solid;
 }
+
+.form {
+    display: flex;
+    gap: 20px;
+}
+
+.form * {
+    padding: 8px;
+}
